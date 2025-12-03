@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kauan Menezes — Portfólio</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" type="image/x-icon" href="https://www.nicepng.com/png/full/154-1545276_portfolio-icon-circle.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Kauan Menezes</h1>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h2>Olá — eu sou <span>Kauan Menezes</span></h2>
+          <p>Desenvolvedor web / Front-end. Eu crio interfaces limpas, acessíveis e responsivas. Abaixo você encontra alguns projetos e formas de contato.</p>
+          <a class="btn" href="#projetos">Ver projetos</a>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-placeholder"><img src="https://i.pinimg.com/736x/c8/c3/37/c8c3370e39c8ffa7388eaaa7715eeafd.jpg" alt="Kauan Menezes" width="380" height="280"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section id="sobre" class="section card">
+      <h3>Sobre</h3>
+      <p>“Sou Kauan Menezes, desenvolvedor Front-End em constante evolução. Gosto de transformar ideias em interfaces modernas, responsivas e fáceis de usar. Busco sempre aprender novas tecnologias para criar experiências digitais cada vez melhores.”</p>
+    </section>
+
+    <section id="projetos" class="section">
+      <h3>Projetos</h3>
+      <div class="projects-grid">
+      
+        <article class="project-card">
+          <div class="project-thumb">Projeto 1</div>
+          <div class="project-body">
+            <h4>Portfolio Basic</h4>
+            <p>aqui foi o primeiro portfólio simples feito em sala de aula</p>
+            <div class="project-links">
+            <a href="https://github.com/KauanMenezes310/Portfolio">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">Projeto 2</div>
+          <div class="project-body">
+            <h4>Atvv do Portifólio mais complexa</h4>
+            <p>feito um Portifólio para meu personagem preferido</p>
+            <div class="project-links">
+            <a href="https://github.com/KauanMenezes310/PortfolioDoSasuke">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">Projeto 3</div>
+          <div class="project-body">
+            <h4>README GitHub</h4>
+            <p> Para Demostrar o Headme do meu perfil no Github</p>
+            <div class="project-links">
+            <a href="https://github.com/KauanMenezes310">Clique aqui</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="skills" class="section card">
+      <h3>Habilidades</h3>
+      <ul class="skills-list">
+        <li>HTML5 — Semântico e acessível</li>
+        <li>CSS3 — Flexbox, Grid, responsividade</li>
+        <li>Versionamento — Git & GitHub</li>
+        <li>Boas práticas — Performance</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="section contact-card">
+      <h3>Contato</h3>
+      <p>Fique a vontade para me contatar:</p>
+      <ul>
+        <li>Email: <a href="mailto:kauan@example.com">kauanmenezes0310@gmail.com</a></li>
+        <li>LinkedIn: <a href="#">https://www.linkedin.com/in/kauan-menezes-a776b535b/</a></li>
+      </ul>
+
+      <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kauan-menezes-a776b535b/?trk=opento_sprofile_details/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/KauanMenezes310" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/kauan_menezes03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+      <form class="contact-form" action="#" method="post" onsubmit="alert('Formulário de exemplo — substitua a ação com seu backend'); return false;">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu email" required>
+        <textarea name="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Kauan Menezes — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+  
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
