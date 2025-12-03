@@ -22,7 +22,7 @@ Aluno: Kauan Henrique Menezes De Cristo.
 Curso: Análise e Desenvolvimento de Sistemas — 1º Período
 
 Link do projeto hospedado:
-portfoliokauanmenezes.netlify.app
+https://kauanmenezes310.netlify.app
 
 Repositório no GitHub:
 github.com/KauanMenezes310/PROJETO-3-CICLO-HTML-CSS
